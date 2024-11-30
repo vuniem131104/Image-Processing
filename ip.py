@@ -91,10 +91,10 @@ def compare_methods(input_image_path):
     plt.imshow(um_image, cmap="gray")
     plt.title("Unsharp Masking")
     plt.axis("off")
-    plt.savefig('test1_result.jpg')
+    plt.savefig('results/test1_result.jpg')
     plt.show()
     
 
 
-compare_methods("images/test1.jpg")
+compare_methods("images/test.jpg")
 
